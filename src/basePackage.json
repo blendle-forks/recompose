@@ -2,7 +2,7 @@
   "author": "Andrew Clark <acdlite@me.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/acdlite/recompose.git"
+    "url": "git@github.com:blendle-forks/recompose.git"
   },
   "license": "MIT",
   "bugs": {

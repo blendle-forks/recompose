@@ -1,4 +1,4 @@
-import { createFactory, Component } from 'react'
+import { Component, createFactory } from 'react'
 import setDisplayName from './setDisplayName'
 import wrapDisplayName from './wrapDisplayName'
 import mapValues from './utils/mapValues'

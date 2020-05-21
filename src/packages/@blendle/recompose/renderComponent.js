@@ -1,5 +1,5 @@
-import { createFactory } from 'react'
 import wrapDisplayName from './wrapDisplayName'
+import createFactory from './utils/createFactory'
 
 const renderComponent = Component => _ => {
   const factory = createFactory(Component)
