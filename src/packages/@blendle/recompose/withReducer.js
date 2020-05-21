@@ -1,6 +1,7 @@
-import { createFactory, Component } from 'react'
+import { Component } from 'react'
 import setDisplayName from './setDisplayName'
 import wrapDisplayName from './wrapDisplayName'
+import createFactory from './utils/createFactory'
 
 const noop = () => {}
 

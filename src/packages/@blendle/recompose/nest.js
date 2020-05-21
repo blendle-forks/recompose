@@ -1,5 +1,5 @@
-import { createFactory } from 'react'
 import getDisplayName from './getDisplayName'
+import createFactory from './utils/createFactory'
 
 const nest = (...Components) => {
   const factories = Components.map(createFactory)

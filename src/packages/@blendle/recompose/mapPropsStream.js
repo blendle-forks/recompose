@@ -1,9 +1,9 @@
-import { createFactory } from 'react'
 import $$observable from 'symbol-observable'
 import { componentFromStreamWithConfig } from './componentFromStream'
 import setDisplayName from './setDisplayName'
 import wrapDisplayName from './wrapDisplayName'
 import { config as globalConfig } from './setObservableConfig'
+import createFactory from './utils/createFactory'
 
 const identity = t => t
 

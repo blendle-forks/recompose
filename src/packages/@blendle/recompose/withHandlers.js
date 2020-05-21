@@ -1,8 +1,9 @@
 /* eslint-disable no-console */
-import { createFactory, Component } from 'react'
+import { Component } from 'react'
 import setDisplayName from './setDisplayName'
 import wrapDisplayName from './wrapDisplayName'
 import mapValues from './utils/mapValues'
+import createFactory from './utils/createFactory'
 
 const withHandlers = handlers => BaseComponent => {
   const factory = createFactory(BaseComponent)

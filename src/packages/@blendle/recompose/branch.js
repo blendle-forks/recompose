@@ -1,6 +1,6 @@
-import { createFactory } from 'react'
 import setDisplayName from './setDisplayName'
 import wrapDisplayName from './wrapDisplayName'
+import createFactory from './utils/createFactory'
 
 const identity = Component => Component
 
